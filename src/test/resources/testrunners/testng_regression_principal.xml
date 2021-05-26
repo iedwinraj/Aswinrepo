@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Principal automation regression suite" thread-count="3" parallel="none" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TesultsListener" />
+	</listeners>
+	
+	<test name="Principal edit story page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditStoryPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Principal edit ARS page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditARSPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Principal edit announcement page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditAnnouncementPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Principal edit online video page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditOnlineVideoPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Principal edit IM page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditIMPageTest" />
+		</classes>
+	</test>
+	
+</suite>	

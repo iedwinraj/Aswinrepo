@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RFO NSPIRA automtion regression suite"
+	thread-count="3" parallel="tests" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TesultsListener" />
+	</listeners>
+
+	<test name="Building Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.BuildingPageTest" />
+		</classes>
+	</test>
+
+</suite>

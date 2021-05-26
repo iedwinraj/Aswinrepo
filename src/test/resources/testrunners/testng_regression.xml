@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ERP Admin automtion regression suite"
+	thread-count="3" parallel="tests" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TesultsListener" />
+	</listeners>
+
+	<test name="ERP Admin Approve portions Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.ApprovePortionsPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Bank master Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.BankMasterPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Black date attendance creation Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.BlackDateAttendanceCreationPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Business Stage Setup Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.BusinessStageSetupPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Class teacher allocation Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.ClassTeacherAllocationPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin classwise report Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.ClasswiseReportPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Consolidated report Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.ConsolidatedReportPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Dashboard Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.DashboardPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Departments Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.DepartmentsPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Designation Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.DesignationPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Diary Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.DiaryPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin DSR Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.DSRPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Employee type Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EmployeeTypePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Family Relationships Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.FamilyRelationshipsPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Fees group Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.FeesGroupPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Fees Head Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.FeesHeadPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Fees type Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.FeesTypePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Grade creation Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.GradeCreationPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Group Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.GroupPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Homework Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.HomeWorksPageTest" />
+		</classes>
+	</test>
+		
+	<test name="ERP Admin Newsletter Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.NewsLetterPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Online videos Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.OnlineVideosPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Optional subject Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.OptionalSubjectPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin School calendar page Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SiblingFeesConcessionPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Section change Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SectionChangePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Send email Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SendEmailPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Sibling fees Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SiblingFeesConcessionPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin SRT language Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SRTLanguagePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Stories Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StoriesPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Student life cycle Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StudentLifeCyclePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Student performance Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StudentPerformancePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Student house list Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StudentHouseListPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Subjectwise report Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SubjectwiseReportPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin WHR Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.WHRPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin Worksheet page Test_chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.WorkSheetPageTest" />
+		</classes>
+	</test>
+
+</suite>

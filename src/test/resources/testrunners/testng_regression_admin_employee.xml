@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Admin automation regression suite" thread-count="3" parallel="none" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TesultsListener" />
+	</listeners>
+	
+	<test name="Admin delete asset page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<!-- <class name="com.qa.opencart.tests.DeleteEmployeePageTest" /> -->
+			<!-- <class name = "com.qa.opencart.tests.DeleteEmployeeTypePageTest"/> -->
+			<!-- <class name = "com.qa.opencart.tests.DeleteDepartmentPageTest"/> -->
+			<!-- <class name = "com.qa.opencart.tests.DeleteDesignationPageTest"/> -->
+			<!-- <class name = "com.qa.opencart.tests.DeleteFRPageTest"/> -->
+			<class name = "com.qa.opencart.tests.DeleteAssetPageTest"/>
+		</classes>
+	</test>
+	
+</suite>	

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Niyogaa Administration Head automation regression suite" thread-count="3" parallel="none" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TesultsListener" />
+	</listeners>
+	
+	<test name="Niyogaa Administartion Head edit story page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<!-- <class name="com.qa.opencart.tests.DeleteOnlineVideoPageTest" />-->
+			<!-- <class name="com.qa.opencart.tests.DeleteSendEmailPageTest" /> -->
+			<!-- <class name="com.qa.opencart.tests.DeleteSFCPageTest" /> -->
+			<!-- <class name="com.qa.opencart.tests.DeleteFCBTPageTest" /> -->
+			<!-- <class name="com.qa.opencart.tests.DeleteFCPageTest" /> -->
+			<class name = "com.qa.opencart.tests.EditStoryPageTest" />
+		</classes>
+	</test>
+	
+</suite>	

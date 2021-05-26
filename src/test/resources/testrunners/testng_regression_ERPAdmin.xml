@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ERP Admin Head automation regression suite" thread-count="3" parallel="none" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.testlisteners.TesultsListener" />
+	</listeners>
+	
+	<test name="ERP Admin create shift page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.ShiftPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create stream page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StreamPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create board page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.BoardPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create state page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StatePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create district page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.DistrictPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create relegion page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.RelegionPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create community page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.CommunityPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create shift es Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.ESPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create EFM page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EFMPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create EFS page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EFSPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create grade page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.GradeCreationPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin send email page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.SendEmailPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create online video page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.OnlineVideosPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create announcement page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.AnnouncementPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin create story page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.StoriesPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit ATS page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditATSPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit ayear page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditAyearPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit shift page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditShiftPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit stream page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditStreamPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit board page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditBoardPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit state page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditStatePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit district page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditDistrictPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit relegion page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditRelegionPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit community page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditCommunityPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit enquiry source page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditEnquirySourcePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit EFS page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditEFSPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit EFM page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditEFMPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit AGC page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditAGCPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ERP Admin edit COM page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditCOMPageTest" />
+		</classes>
+	</test>
+
+	<test name="ERP Admin edit story page Test_Chrome_85">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="85" />
+		<classes>
+			<class name="com.qa.opencart.tests.EditStoryPageTest" />
+		</classes>
+	</test>
+
+</suite>
